@@ -1,8 +1,9 @@
 {
   "name": "futurebit-video-player",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "A video player component for React Native Expo projects",
   "main": "index.js",
+  "types": "types/index.d.ts",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
