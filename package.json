@@ -1,6 +1,6 @@
 {
   "name": "futurebit-video-player",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "A video player component for React Native Expo projects",
   "main": "index.js",
   "types": "types/index.d.ts",
