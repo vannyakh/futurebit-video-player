@@ -1,10 +1,16 @@
-// src/VideoPlayer.js
+// src/VideoPlayer.tsx
 
 import React from 'react';
 import { View, StyleSheet } from 'react-native';
-import { Video } from 'expo-av';
+import { Video, ResizeMode } from 'expo-av';
 
-const VideoPlayer = ({ source, shouldPlay = false, resizeMode = Video.RESIZE_MODE_CONTAIN }) => {
+interface VideoPlayerProps {
+  source: { uri: string };
+  shouldPlay?: boolean;
+  resizeMode?: ResizeMode;
+}
+
+const VideoPlayer: React.FC<VideoPlayerProps> = ({ source, shouldPlay = false, resizeMode = ResizeMode.CONTAIN }) => {
   return (
     <View style={styles.container}>
       <Video
