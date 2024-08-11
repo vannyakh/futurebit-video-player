@@ -1,6 +1,6 @@
 {
   "name": "futurebit-video-player",
-  "version": "1.0.4",
+  "version": "1.0.5",
   "description": "A video player component for React Native Expo projects",
   "main": "index.js",
   "types": "types/index.d.ts",
@@ -17,7 +17,11 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/vannyakh/futurebit-video-player.git"
+    "url": "https://github.com/vannyakh/futurebit-video-player.git",
+    "directory": "src",
+    "branch": "main",
+    "issues": "https://github.com/vannyakh/futurebit-video-player/issues",
+    "pulls": "https://github.com/vannyakh/futurebit-video-player/pulls"
   },
   "keywords": [
     "react-native",
