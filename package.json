@@ -17,5 +17,11 @@
   "repository": {
     "type": "git",
     "url": "https://github.com/vannyakh/futurebit-video-player.git"
-    }
+  },
+  "keywords": [
+    "react-native",
+    "expo",
+    "video",
+    "player"
+  ]
 }
